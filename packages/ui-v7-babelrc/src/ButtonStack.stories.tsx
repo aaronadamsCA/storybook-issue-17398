@@ -1,12 +1,12 @@
 import { Button } from "@mui/material";
 import type { ComponentMeta, ComponentStoryObj } from "@storybook/react";
 
-import { ButtonStack as Component } from "./ButtonStack";
+import { ButtonStack } from "./ButtonStack";
 
 const VARIANTS = ["contained", "outlined", "text"] as const;
 
-const meta: ComponentMeta<typeof Component> = {
-  component: Component,
+const meta: ComponentMeta<typeof ButtonStack> = {
+  component: ButtonStack,
   args: {
     spacing: 1,
     children: VARIANTS.map((variant) => (
@@ -19,6 +19,6 @@ const meta: ComponentMeta<typeof Component> = {
 
 export default meta;
 
-type Story = ComponentStoryObj<typeof Component>;
+type Story = ComponentStoryObj<typeof ButtonStack>;
 
-export const ButtonStack: Story = {};
+export const Default: Story = {};

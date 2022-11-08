@@ -1,11 +1,13 @@
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
-import { theme } from "@monorepo/mui-theme-base";
+import { theme } from "packages/theme/src";
 import type { DecoratorFn } from "@storybook/react";
 
-export const withTheme: DecoratorFn = (Story) => (
+const withTheme: DecoratorFn = (Story) => (
   <ThemeProvider theme={theme}>
     <CssBaseline />
     {Story()}
   </ThemeProvider>
 );
+
+export const decorators = [withTheme];

@@ -8,7 +8,7 @@ const config: StorybookConfig = {
     builder: "webpack5",
   },
   features: {
-    // babelModeV7: true,
+    babelModeV7: true,
     emotionAlias: false,
     storyStoreV7: true,
   },

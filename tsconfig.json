@@ -8,10 +8,6 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "noEmit": true,
-    "paths": {
-      "@monorepo/mui-theme-base": ["./packages/mui-theme-base/src"],
-      "@monorepo/ui": ["./packages/ui/src"]
-    },
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext"

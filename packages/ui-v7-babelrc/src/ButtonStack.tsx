@@ -1,5 +1,5 @@
-import type { StackProps } from "@mui/material/Stack";
-import Stack from "@mui/material/Stack";
+import type { StackProps } from "@mui/material";
+import { Stack } from "@mui/material";
 import { forwardRef } from "react";
 
 export type ButtonStackProps = StackProps;
