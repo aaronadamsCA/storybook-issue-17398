@@ -14,7 +14,8 @@ const config: StorybookConfig = {
   },
   framework: "@storybook/react",
   stories: ["../src"],
-  webpackFinal: (config) => {
+  webpackFinal: (baseConfig) => {
+    const config = baseConfig;
     config.resolve ??= {};
     config.resolve.plugins ??= [];
     config.resolve.plugins.push(
@@ -24,7 +25,6 @@ const config: StorybookConfig = {
         mainFields: config.resolve.mainFields as string[],
       })
     );
-
     return config;
   },
 };
