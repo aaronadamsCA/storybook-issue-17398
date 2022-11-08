@@ -1,7 +1,7 @@
 {
   "name": "Storybook Babel Issue",
-  "image": "ghcr.io/shopnishe/nishe-web-apps/devcontainer:1.0.0",
+  "image": "ghcr.io/nisheretail/devcontainers/node:1.0.0",
   "remoteUser": "vscode",
-  "updateContentCommand": ".devcontainer/updateContent.sh",
+  "updateContentCommand": ".devcontainer/install.sh",
   "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
 }
