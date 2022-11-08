@@ -1,5 +1,5 @@
 {
-  "include": ["packages/*/**/*", "packages/ui/.storybook/**/*"],
+  "include": ["**/*", "**/.storybook/**/*"],
   "compilerOptions": {
     "baseUrl": "./",
     "esModuleInterop": true,

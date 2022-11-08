@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  ignorePatterns: ["!.storybook/", "storybook-static/"],
   extends: ["eslint:recommended", "prettier"],
   parser: "@babel/eslint-parser",
   parserOptions: {
