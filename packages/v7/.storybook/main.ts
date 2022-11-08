@@ -3,7 +3,6 @@ import path from "path";
 import { TsconfigPathsPlugin } from "tsconfig-paths-webpack-plugin";
 
 const config: StorybookConfig = {
-  addons: ["@storybook/addon-essentials"],
   framework: "@storybook/react-webpack5",
   stories: ["../src"],
   webpackFinal: (baseConfig) => {

@@ -16,8 +16,6 @@
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
     "@mui/material": "5.10.13",
-    "@storybook/addon-essentials": "7.0.0-alpha.48",
-    "@storybook/addons": "7.0.0-alpha.48",
     "@storybook/cli": "7.0.0-alpha.48",
     "@storybook/react": "7.0.0-alpha.48",
     "@storybook/react-webpack5": "7.0.0-alpha.48",

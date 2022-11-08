@@ -16,8 +16,6 @@
     "@emotion/react": "11.10.5",
     "@emotion/styled": "11.10.5",
     "@mui/material": "5.10.13",
-    "@storybook/addon-essentials": "6.5.13",
-    "@storybook/addons": "6.5.13",
     "@storybook/builder-webpack5": "6.5.13",
     "@storybook/core-common": "6.5.13",
     "@storybook/manager-webpack5": "6.5.13",

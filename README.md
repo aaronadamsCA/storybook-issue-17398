@@ -16,7 +16,7 @@
 
     ```
     ModuleBuildError: Module build failed (from ../../node_modules/babel-loader/lib/index.js):
-    SyntaxError: /workspaces/storybook-issue-17398/packages/ui-v7/src/ButtonStack.stories.tsx: Missing semicolon. (6:50)
+    SyntaxError: /workspaces/storybook-issue-17398/packages/v6-v7mode/.storybook/preview.tsx: Unexpected token, expected "from" (4:12)
     ```
 
 - `packages/v6-v7mode-babelrc/`
@@ -32,7 +32,7 @@
 
 - `packages/v7/`
 
-  - Storybook 7
+  - Storybook 7 alpha
 
   - ❌ TypeScript syntax error in local package
 
@@ -43,7 +43,7 @@
 
 - `packages/v7/`
 
-  - Storybook 7 + `.babelrc.json`
+  - Storybook 7 alpha + `.babelrc.json`
 
   - ❌ TypeScript syntax error in `theme` package
 
