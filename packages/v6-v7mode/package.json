@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/ui-v7",
+  "name": "@monorepo/v6-v7mode",
   "private": true,
   "version": "0.0.0",
   "sideEffects": false,

@@ -1,14 +1,14 @@
-# Storybook v6 Babel issues
+# Storybook Babel issues
 
-- `packages/ui/`
+- `packages/v6/`
 
-  - `babelModeV7: false`
+  - Storybook 6
 
   - ✅ Runs correctly
 
-- `packages/ui-v7/`
+- `packages/v6-v7mode/`
 
-  - `babelModeV7: true`
+  - Storybook 6 + `babelModeV7: true`
 
   - ❌ TypeScript syntax error in local package
 
@@ -17,11 +17,9 @@
     SyntaxError: /workspaces/storybook-issue-17398/packages/ui-v7/src/ButtonStack.stories.tsx: Missing semicolon. (6:50)
     ```
 
-- `packages/ui-v7-babelrc/`
+- `packages/v6-v7mode-babelrc/`
 
-  - `babelModeV7: true`
-
-  - Local `.babelrc.json` file
+  - Storybook 6 + `babelModeV7: true` + `.babelrc.json`
 
   - ❌ TypeScript syntax error in `theme` package
 

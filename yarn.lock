@@ -1957,9 +1957,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@monorepo/ui-v7-babelrc@workspace:packages/ui-v7-babelrc":
+"@monorepo/v6-v7mode-babelrc@workspace:packages/v6-v7mode-babelrc":
   version: 0.0.0-use.local
-  resolution: "@monorepo/ui-v7-babelrc@workspace:packages/ui-v7-babelrc"
+  resolution: "@monorepo/v6-v7mode-babelrc@workspace:packages/v6-v7mode-babelrc"
   dependencies:
     "@emotion/react": 11.10.5
     "@emotion/styled": 11.10.5
@@ -1980,9 +1980,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@monorepo/ui-v7@workspace:packages/ui-v7":
+"@monorepo/v6-v7mode@workspace:packages/v6-v7mode":
   version: 0.0.0-use.local
-  resolution: "@monorepo/ui-v7@workspace:packages/ui-v7"
+  resolution: "@monorepo/v6-v7mode@workspace:packages/v6-v7mode"
   dependencies:
     "@emotion/react": 11.10.5
     "@emotion/styled": 11.10.5
@@ -2003,9 +2003,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@monorepo/ui@workspace:packages/ui":
+"@monorepo/v6@workspace:packages/v6":
   version: 0.0.0-use.local
-  resolution: "@monorepo/ui@workspace:packages/ui"
+  resolution: "@monorepo/v6@workspace:packages/v6"
   dependencies:
     "@emotion/react": 11.10.5
     "@emotion/styled": 11.10.5
